@@ -1,0 +1,9 @@
+reward function: General reward function
+actor learning rate: 0.001
+param noise: None
+actor update rate: 0.001
+critic update rate: 0.001
+action noise: OrnsteinUhlenbeckActionNoise(mu=[ 0.  0.  0.  0.  0.  0.], sigma=[ 0.2  0.2  0.2  0.2  0.2  0.2])
+critic learning rate: 0.01
+batch size: 64
+result_function: The second 100

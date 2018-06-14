@@ -1,0 +1,9 @@
+param noise: None
+critic learning rate: 0.01
+action noise: None
+result_function: The second 100
+actor update rate: 0.001
+batch size: 64
+reward function: General reward function
+actor learning rate: 0.001
+critic update rate: 0.001

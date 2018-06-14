@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/rvsa/RL_project/Peg_in_Hole/1-baselines/baselines/ddpg/simulation_data/simulation_model"
+all_model_checkpoint_paths: "/home/rvsa/RL_project/Peg_in_Hole/1-baselines/baselines/ddpg/simulation_data/simulation_model"
