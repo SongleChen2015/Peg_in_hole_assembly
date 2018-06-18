@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b9cdbb8-def6-42e2-b5da-0ee0415c674d" name="Default" comment="" />
+    <list default="true" id="7b9cdbb8-def6-42e2-b5da-0ee0415c674d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-baselines/baselines/a2c/a2c.py" beforeDir="false" afterPath="$PROJECT_DIR$/1-baselines/baselines/a2c/a2c.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-baselines/baselines/a2c/policies.py" beforeDir="false" afterPath="$PROJECT_DIR$/1-baselines/baselines/a2c/policies.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,58 +18,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Simulate_main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Simulate_main.py">
+      <file leaf-file-name="a2c.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1-baselines/baselines/a2c/a2c.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="policies.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1-baselines/baselines/a2c/policies.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Simulate_training.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Simulate_training.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="56" column="32" lean-forward="true" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
               <folding>
-                <element signature="e#0#23#0" expanded="true" />
-                <element signature="e#535#1631#0" />
+                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#4380#5502#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ddpg.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/ddpg.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4230">
-              <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="49" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-                <element signature="e#12725#13983#0" />
-                <element signature="e#15209#17394#0" />
-                <element signature="e#17815#18149#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Plot_results.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Plot_results.py">
+      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1-baselines/baselines/a2c/utils.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run_atari.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1-baselines/baselines/a2c/run_atari.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="85" lean-forward="true" selection-start-line="30" selection-start-column="85" selection-end-line="30" selection-end-column="85" />
+              <folding>
+                <element signature="e#22#45#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,7 +89,11 @@
       <find>summary_pb2</find>
       <find>reward</find>
       <find>agent</find>
+      <find>SubprocVecEnv</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -135,15 +131,18 @@
         <option value="$PROJECT_DIR$/1-baselines/baselines/ddpg/Env_robot_control.py" />
         <option value="$PROJECT_DIR$/1-baselines/baselines/ddpg/Experiment_data/epoch_train_duration_normal_new" />
         <option value="$PROJECT_DIR$/1-baselines/baselines/ddpg/Experiment_data/re_true_rewards_normal_new" />
+        <option value="$PROJECT_DIR$/1-baselines/baselines/a2c/a2c.py" />
+        <option value="$PROJECT_DIR$/1-baselines/baselines/a2c/policies.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1985" />
-    <option name="y" value="-4" />
-    <option name="width" value="1615" />
-    <option name="height" value="1054" />
+    <option name="x" value="2089" />
+    <option name="y" value="220" />
+    <option name="width" value="1293" />
+    <option name="height" value="671" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -173,7 +172,7 @@
               <item name="Peg_in_Hole" type="462c0819:PsiDirectoryNode" />
               <item name="1-baselines" type="462c0819:PsiDirectoryNode" />
               <item name="baselines" type="462c0819:PsiDirectoryNode" />
-              <item name="ddpg" type="462c0819:PsiDirectoryNode" />
+              <item name="a2c" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -202,25 +201,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main_PeginHoles">
-    <configuration name="Connect_Finall" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Peg_in_Hole" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1-baselines/baselines/ddpg" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1-baselines/baselines/ddpg/Connect_Finall.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.policies">
     <configuration name="Evaluation_model" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Peg_in_Hole" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -234,24 +215,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1-baselines/baselines/ddpg/Evaluation_model.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="Fuzzy_reward_mf_experiments" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Peg_in_Hole" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1-baselines/baselines/ddpg" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1-baselines/baselines/ddpg/Fuzzy_reward_mf_experiments.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -275,6 +238,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="a2c" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Peg_in_Hole" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1-baselines/baselines/a2c" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1-baselines/baselines/a2c/a2c.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="main_PeginHoles" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Peg_in_Hole" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -288,6 +269,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1-baselines/baselines/ddpg/main_PeginHoles.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="policies" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Peg_in_Hole" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1-baselines/baselines/a2c" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1-baselines/baselines/a2c/policies.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -428,19 +427,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="Python.Connect_Finall" />
       <item itemvalue="Python.main_PeginHoles" />
       <item itemvalue="Python.Test" />
       <item itemvalue="Python.Evaluation_model" />
-      <item itemvalue="Python.Fuzzy_reward_mf_experiments" />
+      <item itemvalue="Python.a2c" />
+      <item itemvalue="Python.policies" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.policies" />
+        <item itemvalue="Python.a2c" />
         <item itemvalue="Python.main_PeginHoles" />
         <item itemvalue="Python.Test" />
         <item itemvalue="Python.Evaluation_model" />
-        <item itemvalue="Python.Connect_Finall" />
-        <item itemvalue="Python.Fuzzy_reward_mf_experiments" />
       </list>
     </recent_temporary>
   </component>
@@ -461,11 +460,11 @@
     <frame x="1985" y="-4" width="1615" height="1054" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1468005" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1468005" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21725571" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.387689" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32848233" />
@@ -481,21 +480,21 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25736097" />
-      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.387689" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1468005" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3180873" />
-      <window_info anchor="bottom" id="Python Console" order="9" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.77650726" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39955604" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32848233" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32848233" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -518,6 +517,55 @@
     <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Simulate_training.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
+          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/ddpg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#12725#13983#0" />
+            <element signature="e#15209#17394#0" />
+            <element signature="e#17815#18149#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Plot_results.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#83#508#0" />
+            <element signature="e#535#1631#0" />
+            <element signature="e#1659#3022#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Simulate_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Simulate_training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
           <caret line="58" column="19" lean-forward="true" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
         </state>
       </provider>
@@ -527,7 +575,9 @@
         <state>
           <folding>
             <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#83#508#0" />
             <element signature="e#535#1631#0" />
+            <element signature="e#1659#3022#0" />
           </folding>
         </state>
       </provider>
@@ -729,23 +779,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Simulate_main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Simulate_training.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/ddpg.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4230">
+        <state relative-caret-position="75">
           <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="49" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
@@ -758,11 +794,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="56" column="32" lean-forward="true" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+        <state relative-caret-position="165">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#83#508#0" />
             <element signature="e#535#1631#0" />
+            <element signature="e#1659#3022#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Simulate_training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Simulate_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/a2c/run_atari.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="85" lean-forward="true" selection-start-line="30" selection-start-column="85" selection-end-line="30" selection-end-column="85" />
+          <folding>
+            <element signature="e#22#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/a2c/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/a2c/a2c.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/a2c/policies.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#4380#5502#0" />
           </folding>
         </state>
       </provider>
