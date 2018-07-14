@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7b9cdbb8-def6-42e2-b5da-0ee0415c674d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-baselines/baselines/a2c/a2c.py" beforeDir="false" afterPath="$PROJECT_DIR$/1-baselines/baselines/a2c/a2c.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-baselines/baselines/a2c/policies.py" beforeDir="false" afterPath="$PROJECT_DIR$/1-baselines/baselines/a2c/policies.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-baselines/baselines/ddpg/ddpg.py" beforeDir="false" afterPath="$PROJECT_DIR$/1-baselines/baselines/ddpg/ddpg.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,46 +17,104 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="a2c.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1-baselines/baselines/a2c/a2c.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="policies.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="policies.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1-baselines/baselines/a2c/policies.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="195">
               <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#4380#5502#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1-baselines/baselines/a2c/utils.py">
+      <file leaf-file-name="policies.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1-baselines/baselines/acktr/policies.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="run_atari.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1-baselines/baselines/a2c/run_atari.py">
+      <file leaf-file-name="value_functions.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1-baselines/baselines/acktr/value_functions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="85" lean-forward="true" selection-start-line="30" selection-start-column="85" selection-end-line="30" selection-end-column="85" />
+            <state>
               <folding>
-                <element signature="e#22#45#0" expanded="true" />
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1335">
+              <caret line="89" selection-start-line="89" selection-end-line="89" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="acktr_cont.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1-baselines/baselines/acktr/acktr_cont.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="acktr_disc.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1-baselines/baselines/acktr/acktr_disc.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="40" column="42" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ddpg.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/ddpg.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="241" column="55" selection-start-line="241" selection-start-column="39" selection-end-line="241" selection-end-column="55" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1-baselines/baselines/deepq/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="simple.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1-baselines/baselines/deepq/simple.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,6 +147,7 @@
       <find>reward</find>
       <find>agent</find>
       <find>SubprocVecEnv</find>
+      <find>self.critic_loss</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -116,7 +174,6 @@
         <option value="$PROJECT_DIR$/1-baselines/baselines/ddpg/fuzzy_reward_function.py" />
         <option value="$PROJECT_DIR$/1-baselines/baselines/ddpg/Fuzzy_reward_mf_experiments.py" />
         <option value="$PROJECT_DIR$/1-baselines/baselines/ddpg/noise.py" />
-        <option value="$PROJECT_DIR$/1-baselines/baselines/ddpg/ddpg.py" />
         <option value="$PROJECT_DIR$/1-baselines/baselines/ddpg/Experiment_data/epoch_train_duration_fuzzy_new_2" />
         <option value="$PROJECT_DIR$/1-baselines/baselines/ddpg/Experiment_data/epoch_train_duration_fuzzy_new_3" />
         <option value="$PROJECT_DIR$/1-baselines/baselines/ddpg/data/large_force_moments_evaluation_successful" />
@@ -133,14 +190,15 @@
         <option value="$PROJECT_DIR$/1-baselines/baselines/ddpg/Experiment_data/re_true_rewards_normal_new" />
         <option value="$PROJECT_DIR$/1-baselines/baselines/a2c/a2c.py" />
         <option value="$PROJECT_DIR$/1-baselines/baselines/a2c/policies.py" />
+        <option value="$PROJECT_DIR$/1-baselines/baselines/ddpg/ddpg.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2089" />
-    <option name="y" value="220" />
-    <option name="width" value="1293" />
-    <option name="height" value="671" />
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
+    <option name="width" value="1855" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -148,7 +206,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,12 +229,20 @@
               <item name="Peg_in_Hole" type="462c0819:PsiDirectoryNode" />
               <item name="1-baselines" type="462c0819:PsiDirectoryNode" />
               <item name="baselines" type="462c0819:PsiDirectoryNode" />
-              <item name="a2c" type="462c0819:PsiDirectoryNode" />
+              <item name="ddpg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Peg_in_Hole" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Peg_in_Hole" type="462c0819:PsiDirectoryNode" />
+              <item name="1-baselines" type="462c0819:PsiDirectoryNode" />
+              <item name="baselines" type="462c0819:PsiDirectoryNode" />
+              <item name="deepq" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -457,10 +522,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1985" y="-4" width="1615" height="1054" extended-state="6" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1468005" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16575791" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.387689" />
@@ -480,22 +545,22 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.387689" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1468005" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.77650726" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.387689" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39955604" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32848233" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.77650726" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -507,10 +572,31 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Simulate_main.py">
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/deepq/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        <state>
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/deepq/simple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -527,18 +613,6 @@
           <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="49" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
-            <element signature="e#12725#13983#0" />
-            <element signature="e#15209#17394#0" />
-            <element signature="e#17815#18149#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Plot_results.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -549,9 +623,6 @@
           <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
-            <element signature="e#83#508#0" />
-            <element signature="e#535#1631#0" />
-            <element signature="e#1659#3022#0" />
           </folding>
         </state>
       </provider>
@@ -575,18 +646,6 @@
         <state>
           <folding>
             <element signature="e#0#23#0" expanded="true" />
-            <element signature="e#83#508#0" />
-            <element signature="e#535#1631#0" />
-            <element signature="e#1659#3022#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Plot_results.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -597,9 +656,6 @@
           <caret line="6" column="23" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="23" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
-            <element signature="e#12725#13983#0" />
-            <element signature="e#15209#17394#0" />
-            <element signature="e#17815#18149#0" />
           </folding>
         </state>
       </provider>
@@ -611,28 +667,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Plot_results.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Simulate_main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Plot_results.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -770,41 +808,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Plot_results.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/ddpg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-            <element signature="e#12725#13983#0" />
-            <element signature="e#15209#17394#0" />
-            <element signature="e#17815#18149#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-            <element signature="e#83#508#0" />
-            <element signature="e#535#1631#0" />
-            <element signature="e#1659#3022#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Simulate_training.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
@@ -821,37 +824,99 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1-baselines/baselines/a2c/run_atari.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
+        <state relative-caret-position="345">
           <caret line="30" column="85" lean-forward="true" selection-start-line="30" selection-start-column="85" selection-end-line="30" selection-end-column="85" />
-          <folding>
-            <element signature="e#22#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/a2c/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1-baselines/baselines/a2c/a2c.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        <state relative-caret-position="-548">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1-baselines/baselines/a2c/policies.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="195">
           <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#4380#5502#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/acktr/policies.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/acktr/value_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/acktr/acktr_cont.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/acktr/acktr_disc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="40" column="42" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/deepq/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/deepq/simple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1335">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/ddpg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="241" column="55" selection-start-line="241" selection-start-column="39" selection-end-line="241" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
