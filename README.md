@@ -20,7 +20,7 @@ These algorithms will make it easier for the research community to replicate, re
 You can install it by typing:
 
 ```bash
-git clone https://github.com/openai/baselines.git
+git clone https://github.com/hzm2016/Peg_in_hole_assembly
 cd baselines
 pip install -e .
 ```
