@@ -2,15 +2,15 @@
 
 # Peg_in_hole_assembly
 
-Our work bases on openAI baselines code espically DDPG framework.
+- Our work bases on openAI baselines code espically DDPG framework.
 
-The automatic completion of multiple peg-in-hole assembly tasks by robots remains a formidable challenge because
+- The automatic completion of multiple peg-in-hole assembly tasks by robots remains a formidable challenge because
 the traditional control strategies require a complex analysis of the contact model. 
 
-We proposed a model-driven deep deterministic policy gradient (MDDPG) algorithm is proposed to
+- We proposed a model-driven deep deterministic policy gradient (MDDPG) algorithm is proposed to
 accomplish the assembly task through the learned policy without analyzing the contact states. 
 
-To improve the learning efficiency, we utilize a fuzzy reward system for the complex assembly process. Then, simulations and
+- To improve the learning efficiency, we utilize a fuzzy reward system for the complex assembly process. Then, simulations and
 realistic experiments of a dual peg-in-hole assembly demonstrate the effectiveness of the proposed algorithm.
 
 OpenAI Baselines is a set of high-quality implementations of reinforcement learning algorithms.
