@@ -1,4 +1,4 @@
-<img src="data/logo.jpg" width=100% align="middle" />
+<img src="data/logo.jpg" width=50% align="middle" />
 
 # Peg_in_hole_assembly
 
