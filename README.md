@@ -1,4 +1,4 @@
-<img src="data/Structure_of_algorithm.eps" width=25% align="midle" />
+<img src="data/logo.jpg" width=25% align="middle" />
 
 # Peg_in_hole_assembly
 
