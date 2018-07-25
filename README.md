@@ -1,4 +1,5 @@
-<img src="data/logo.jpg" width=50% align="middle" />
+<img src="data/logo.jpg" width=50% align="center" />
+[![Watch the video](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](https://github.com/hzm2016/Peg_in_hole_assembly/edit/ma)
 
 # Peg_in_hole_assembly
 
