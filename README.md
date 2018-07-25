@@ -1,13 +1,5 @@
 <img src="data/logo.jpg" width=50% align="center" />
 
-<iframe 
-    width="800" 
-    height="450" 
-    src="https://www.youtube.com/watch?v=LVtBjFUfFLE"
-    frameborder="0" 
-    allowfullscreen>
- </iframe>
-
 # Peg_in_hole_assembly
 
 - Our work bases on openAI baselines code espically DDPG framework.
