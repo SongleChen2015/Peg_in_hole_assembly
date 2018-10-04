@@ -1,9 +1,0 @@
-result_function: The second 100
-action noise: NormalActionNoise(mu=[ 0.  0.  0.  0.  0.  0.], sigma=[ 0.2  0.2  0.2  0.2  0.2  0.2])
-actor learning rate: 0.001
-batch size: 64
-critic learning rate: 0.01
-critic update rate: 0.001
-param noise: None
-actor update rate: 0.001
-reward function: General reward function

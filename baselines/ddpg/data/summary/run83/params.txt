@@ -1,9 +1,0 @@
-param noise: AdaptiveParamNoiseSpec(initial_stddev=0.1, desired_action_stddev=0.1, adoption_coefficient=1.01)
-critic update rate: 0.001
-result_function: The second 100
-reward function: General reward function
-actor update rate: 0.001
-actor learning rate: 0.0005
-action noise: None
-critic learning rate: 0.005
-batch size: 64

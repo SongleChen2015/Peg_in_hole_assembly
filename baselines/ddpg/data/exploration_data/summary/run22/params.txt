@@ -1,9 +1,0 @@
-batch size: 64
-param noise: AdaptiveParamNoiseSpec(initial_stddev=0.15, desired_action_stddev=0.15, adoption_coefficient=1.01)
-reward function: General reward function
-critic update rate: 0.001
-action noise: OrnsteinUhlenbeckActionNoise(mu=[0. 0. 0. 0. 0. 0.], sigma=[0.2 0.2 0.2 0.2 0.2 0.2])
-actor update rate: 0.001
-actor learning rate: 0.001
-critic learning rate: 0.01
-result_function: The second 100
