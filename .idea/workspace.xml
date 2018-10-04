@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b9cdbb8-def6-42e2-b5da-0ee0415c674d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-baselines/baselines/ddpg/ddpg.py" beforeDir="false" afterPath="$PROJECT_DIR$/1-baselines/baselines/ddpg/ddpg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baselines/ddpg/src/Experiment_traning.py" beforeDir="false" afterPath="$PROJECT_DIR$/baselines/ddpg/src/Experiment_traning.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,104 +18,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="policies.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1-baselines/baselines/a2c/policies.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="policies.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1-baselines/baselines/acktr/policies.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="value_functions.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1-baselines/baselines/acktr/value_functions.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1335">
-              <caret line="89" selection-start-line="89" selection-end-line="89" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="acktr_cont.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1-baselines/baselines/acktr/acktr_cont.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="acktr_disc.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1-baselines/baselines/acktr/acktr_disc.py">
+      <file leaf-file-name="Experiment_traning.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/baselines/ddpg/src/Experiment_traning.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
-              <caret line="40" column="42" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+              <caret line="79" column="28" lean-forward="true" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
               <folding>
-                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#24#33#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ddpg.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/ddpg.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="241" column="55" selection-start-line="241" selection-start-column="39" selection-end-line="241" selection-end-column="55" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1-baselines/baselines/deepq/models.py">
+      <file leaf-file-name="Experiment_main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/baselines/ddpg/Experiment_main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="simple.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1-baselines/baselines/deepq/simple.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -191,6 +112,7 @@
         <option value="$PROJECT_DIR$/1-baselines/baselines/a2c/a2c.py" />
         <option value="$PROJECT_DIR$/1-baselines/baselines/a2c/policies.py" />
         <option value="$PROJECT_DIR$/1-baselines/baselines/ddpg/ddpg.py" />
+        <option value="$PROJECT_DIR$/baselines/ddpg/src/Experiment_traning.py" />
       </list>
     </option>
   </component>
@@ -210,33 +132,26 @@
         <subPane>
           <expand>
             <path>
-              <item name="Peg_in_Hole" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Peg_in_Hole" type="462c0819:PsiDirectoryNode" />
+              <item name="peg_in_hole_assembly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="peg_in_hole_assembly" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Peg_in_Hole" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Peg_in_Hole" type="462c0819:PsiDirectoryNode" />
-              <item name="1-baselines" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Peg_in_Hole" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Peg_in_Hole" type="462c0819:PsiDirectoryNode" />
-              <item name="1-baselines" type="462c0819:PsiDirectoryNode" />
+              <item name="peg_in_hole_assembly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="peg_in_hole_assembly" type="462c0819:PsiDirectoryNode" />
               <item name="baselines" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Peg_in_Hole" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Peg_in_Hole" type="462c0819:PsiDirectoryNode" />
-              <item name="1-baselines" type="462c0819:PsiDirectoryNode" />
+              <item name="peg_in_hole_assembly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="peg_in_hole_assembly" type="462c0819:PsiDirectoryNode" />
               <item name="baselines" type="462c0819:PsiDirectoryNode" />
               <item name="ddpg" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Peg_in_Hole" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Peg_in_Hole" type="462c0819:PsiDirectoryNode" />
-              <item name="1-baselines" type="462c0819:PsiDirectoryNode" />
+              <item name="peg_in_hole_assembly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="peg_in_hole_assembly" type="462c0819:PsiDirectoryNode" />
               <item name="baselines" type="462c0819:PsiDirectoryNode" />
-              <item name="deepq" type="462c0819:PsiDirectoryNode" />
+              <item name="ddpg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -246,7 +161,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Test" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -525,7 +440,7 @@
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16575791" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22737187" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.387689" />
@@ -572,235 +487,41 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/deepq/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/deepq/simple.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Simulate_training.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/ddpg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Simulate_main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Simulate_training.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="58" column="19" lean-forward="true" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/ddpg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Simulate_main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Simulate_main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Simulate_main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Simulate_main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/models.py" />
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Simulate_training.py" />
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/ddpg.py" />
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/models.py" />
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Simulate_main.py" />
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Simulate_training.py" />
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/models.py" />
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/ddpg.py" />
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Simulate_main.py" />
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Simulate_main.py" />
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Simulate_main.py" />
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Simulate_main.py" />
     <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/data/force_moments_1" />
     <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/data/force_moments_general" />
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/data/force_moments_normal">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-864" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/data/force_moments_normal" />
     <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Exploration_test.py" />
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Experiment_data/re_true_rewards_fuzzy_new_2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-661" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Experiment_data/epoch_train_duration_fuzzy_new">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Experiment_data/epoch_train_duration_fuzzy_new_3">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Experiment_data/re_true_steps_fuzzy_new_3">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="31" column="2" lean-forward="true" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/data/force_moments_evaluation_fail">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/data/large_force_moments_evaluation_fail">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/data/large_force_moments_evaluation_successful">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-72">
-          <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Connect_Finall.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="29" selection-start-line="29" selection-end-line="32" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/data/large_force_moments_evaluation_before">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1494">
-          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Evaluation_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1804">
-          <caret line="146" column="63" selection-start-line="146" selection-start-column="63" selection-end-line="146" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/memory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="90" column="69" selection-start-line="90" selection-start-column="69" selection-end-line="90" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Experiment_data/re_true_rewards_fuzzy_new_2" />
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Experiment_data/epoch_train_duration_fuzzy_new" />
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Experiment_data/epoch_train_duration_fuzzy_new_3" />
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Experiment_data/re_true_steps_fuzzy_new_3" />
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/data/force_moments_evaluation_fail" />
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/data/large_force_moments_evaluation_fail" />
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/data/large_force_moments_evaluation_successful" />
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Connect_Finall.py" />
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/data/large_force_moments_evaluation_before" />
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Evaluation_model.py" />
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/memory.py" />
     <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Test.py" />
     <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Traning_model.py" />
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Env_robot_control.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="168" selection-start-line="168" selection-end-line="168" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/data/total_normal_steps">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/data/total_steps_add_force">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-702" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/data/total_rewards_add_force">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1404" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Env_robot_control.py" />
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/data/total_normal_steps" />
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/data/total_steps_add_force" />
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/data/total_rewards_add_force" />
     <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/main_PeginHoles.py" />
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Experiment_data/epoch_train_duration_normal_new">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Experiment_data/epoch_train_duration_normal_new" />
     <entry file="file://$PROJECT_DIR$/../Path_planning/PrintEnv.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
@@ -808,115 +529,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Simulate_training.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Simulate_main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/a2c/run_atari.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="30" column="85" lean-forward="true" selection-start-line="30" selection-start-column="85" selection-end-line="30" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/a2c/a2c.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-548">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/a2c/policies.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/acktr/policies.py">
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Simulate_training.py" />
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/Simulate_main.py" />
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/a2c/run_atari.py" />
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/a2c/a2c.py" />
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/a2c/policies.py" />
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/acktr/policies.py" />
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/acktr/value_functions.py" />
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/acktr/acktr_cont.py" />
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/acktr/acktr_disc.py" />
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/deepq/models.py" />
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/deepq/simple.py" />
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/models.py" />
+    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/ddpg.py" />
+    <entry file="file://$PROJECT_DIR$/baselines/ddpg/Experiment_main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/acktr/value_functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/acktr/acktr_cont.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/acktr/acktr_disc.py">
+    <entry file="file://$PROJECT_DIR$/baselines/ddpg/src/Experiment_traning.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="40" column="42" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+          <caret line="79" column="28" lean-forward="true" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/deepq/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/deepq/simple.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1335">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-baselines/baselines/ddpg/ddpg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="241" column="55" selection-start-line="241" selection-start-column="39" selection-end-line="241" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#24#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
