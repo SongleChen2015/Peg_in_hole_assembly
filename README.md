@@ -26,6 +26,9 @@ pip install -e .
 ```
 ## DDPG
 - [DDPG](baselines/ddpg)
+## Papers
+- RL for assembly tasks paper: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8454796
+- Related paper: https://www.emeraldinsight.com/doi/pdfplus/10.1108/AA-03-2018-039
 ## First a simulation environment is setup to demonstrate the effectiveness. 
 - Simulate_main.py
 ## Second a dual peg-in-hole assembly experiments has been done. 
